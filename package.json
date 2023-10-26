@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "tauri": "tauri",
-    "localhost": "./node_modules/.bin/servor dist index.html 8080 --reload",
-    "ui-build": "./node_modules/.bin/rollup -c",
-    "ui-dev": "./node_modules/.bin/rollup -c -w & npm run localhost"
+    "localhost": "/node_modules/.bin/servor dist index.html 8080 --reload",
+    "ui-build": "/node_modules/.bin/rollup -c",
+    "ui-dev": "/node_modules/.bin/rollup -c -w & npm run localhost"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1.5.0",
